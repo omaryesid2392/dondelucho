@@ -1,0 +1,23 @@
+{
+  "name": "goldenapi",
+  "version": "1.0.0",
+  "description": "sistemas de inventario",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index.js"
+  },
+  "author": "Omar Corrales H.",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^9.6.0",
+    "firebase-admin": "^10.0.0",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
